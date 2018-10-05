@@ -7,14 +7,14 @@
 ---
 
 ### TOC
-- [AWS](#AWS)
-  - [ElastiCache](#ElastiCache)
-- [Database](#Database)
-  - [PostgreSQL](#PostgreSQL)
-- [Git](#Git)
-- [Linux](#Linux)
-  - [Debian](#Debian)
-- [macOS](#macOS)
+- [AWS](#aws)
+  - [ElastiCache](#elasticache)
+- [Database](#database)
+  - [PostgreSQL](#postgresql)
+- [Git](#git)
+- [Linux](#linux)
+  - [Debian](#debian)
+- [macOS](#macos)
 
 ---
 
