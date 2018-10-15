@@ -55,6 +55,9 @@ $ git push --delete origin <branch_name>
 $ git branch -d <branch_name>
 ```
 
+- [https://www.gitignore.io/](https://www.gitignore.io/)
+  - 프로젝트 처음 설정시 `.gitignore` 만들때 참고
+
 ---
 
 ###  Linux
