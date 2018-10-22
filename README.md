@@ -75,6 +75,10 @@ $ echo "Asia/Seoul" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata
 ```shell
 $ xcode-select --install
 ```
+- 터미널에서 현재 디렉토리를 파인더로 바로 열기
+```shell
+$ open .
+```
 
 ---
 
