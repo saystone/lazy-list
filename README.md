@@ -9,6 +9,7 @@
 ### TOC
 - [AWS](#aws)
   - [ElastiCache](#elasticache)
+  - [S3](#s3)
 - [Database](#database)
   - [PostgreSQL](#postgresql)
 - [Git](#git)
@@ -22,6 +23,10 @@
 
 #### ElastiCache
 - [보안상의 이유로 VPC 외부에서 직접 접속 할 수 없다.](https://aws.amazon.com/ko/elasticache/faqs/)
+
+#### S3
+- 정적 웹 호스팅 모드로 서빙할때 퍼블릭 권한을 잘 줬는데도 `AccessDenied` 뜰 때
+  - 엔드포인트가 잘못된 경우이다. `https://s3.ap-northeast-2.amazonaws.com/bucket-name/` 이게 아니고 `http://bucket-name.s3-website.ap-northeast-2.amazonaws.com/` 이걸 쓰자. (전자는 각 파일의 속성을 클릭했을때 나오는 주소고, 후자는 정적 웹 호스팅 설정 속성에서 확인할수 있다.)
 
 ---
 
