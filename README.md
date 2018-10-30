@@ -63,6 +63,11 @@ $ git branch -d <branch_name>
 - [https://www.gitignore.io/](https://www.gitignore.io/)
   - 프로젝트 처음 설정시 `.gitignore` 만들때 참고
 
+- 로컬에서 `master` 브랜치를 제외한 모든 브랜치 삭제
+```shell
+$ git branch | grep -v "master" | xargs git branch -D
+```
+
 ---
 
 ###  Linux
