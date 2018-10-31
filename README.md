@@ -16,6 +16,8 @@
 - [Linux](#linux)
   - [Debian](#debian)
 - [macOS](#macos)
+- [Node.js](#nodejs)
+  - [NVM]($nvm)
 
 ---
 
@@ -70,7 +72,7 @@ $ git branch | grep -v "master" | xargs git branch -D
 
 ---
 
-###  Linux
+### Linux
 #### Debian
 - 기본 타임존 변경
   - [List of tz](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
@@ -89,6 +91,12 @@ $ xcode-select --install
 ```shell
 $ open .
 ```
+
+---
+
+### Node.js
+#### NVM
+- [Calling nvm use automatically in a directory with a .nvmrc file](https://github.com/creationix/nvm#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file)
 
 ---
 
