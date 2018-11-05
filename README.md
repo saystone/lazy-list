@@ -11,6 +11,7 @@
   - [ElastiCache](#elasticache)
   - [S3](#s3)
 - [Database](#database)
+  - [MySQL](#mysql)
   - [PostgreSQL](#postgresql)
 - [Git](#git)
 - [Linux](#linux)
@@ -33,6 +34,13 @@
 ---
 
 ### Database
+
+#### MySQL
+- DB 생성
+```shell
+$ mysql -u{username} -p{password} -h{host}
+mysql> CREATE DATABASE {database} CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
 
 #### PostgreSQL
 - DB, USER 생성 및 권한 부여
