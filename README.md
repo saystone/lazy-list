@@ -42,6 +42,15 @@ $ mysql -u{username} -p{password} -h{host}
 mysql> CREATE DATABASE {database} CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
+- [Table 'performance_schema.session_variables' doesn't exist](https://stackoverflow.com/a/33481982/3242865)
+  - MySQL 5.6을 삭제하고 5.7을 새로 설치했을때 MySQLWorkbench로 최초 접속시 발생
+```shell
+$ mysql_upgrade -u{username} -p{password} (--force)
+# it needs restart server
+$ /usr/local/opt/mysql@5.7/bin/mysql.server restart
+```
+
+
 #### PostgreSQL
 - DB, USER 생성 및 권한 부여
 ```shell
