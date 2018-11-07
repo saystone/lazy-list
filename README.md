@@ -50,6 +50,14 @@ $ mysql_upgrade -u{username} -p{password} (--force)
 $ /usr/local/opt/mysql@5.7/bin/mysql.server restart
 ```
 
+- DB 이름 변경: [How do I quickly rename a MySQL database (change schema name)?](https://stackoverflow.com/a/2298602/3242865)
+  - `ALTER`로 될줄 알았지...
+  - 먼저, 비어있는 DB를 생성하고 아래 명령어를 활용
+```shell
+$ mysql -u{username} -p{password} {old_db} -sNe 'show tables' | while read table; \ 
+    do mysql -u{username} -p{password} -sNe "RENAME TABLE {old_db}.$table TO {new_db}.$table"; done
+```
+
 
 #### PostgreSQL
 - DB, USER 생성 및 권한 부여
