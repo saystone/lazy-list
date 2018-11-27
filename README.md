@@ -58,6 +58,8 @@ $ mysql -u{username} -p{password} {old_db} -sNe 'show tables' | while read table
     do mysql -u{username} -p{password} -sNe "RENAME TABLE {old_db}.$table TO {new_db}.$table"; done
 ```
 
+- 미리 생성된 테이블에 `INT` 컬럼을 추가할때 `NOT NULL` 속성으로 만들면 기존 데이터들의 추가될 컬럼의 기본값은 `0`이 된다.
+
 
 #### PostgreSQL
 - DB, USER 생성 및 권한 부여
