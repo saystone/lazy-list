@@ -26,6 +26,7 @@
 
 #### ElastiCache
 - [보안상의 이유로 VPC 외부에서 직접 접속 할 수 없다.](https://aws.amazon.com/ko/elasticache/faqs/)
+  - [ElastiCache에 직접 접근하는 EC2 인스턴스에 접속해서 접속하자.](https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/GettingStarted.ConnectToCacheNode.html)
 
 #### S3
 - 정적 웹 호스팅 모드로 서빙할때 퍼블릭 권한을 잘 줬는데도 `AccessDenied` 뜰 때
