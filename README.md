@@ -13,6 +13,7 @@
 - [Database](#database)
   - [MySQL](#mysql)
   - [PostgreSQL](#postgresql)
+- [Docker](#docker)
 - [Git](#git)
 - [Linux](#linux)
   - [Debian](#debian)
@@ -80,6 +81,14 @@ GRANT
 ```
 
 ---
+
+### Docker
+- 터미널에서 `docker run`등의 명령어를 실행 했을 때 `Error response from daemon: Bad response from Docker engine` 해결 방법
+  - `Preferences > Reset > Reset to factory defaults`
+  - Docker Desktop을 오랜만에(1달 이상?) 실행 시켰고, 업데이트가 있길래 설치했더니 발생
+
+---
+
 
 ### Git
 - [브랜치 삭제](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-both-locally-and-remotely)
