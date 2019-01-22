@@ -20,6 +20,7 @@
 - [macOS](#macos)
 - [Node.js](#nodejs)
   - [NVM]($nvm)
+- [VSCode](#vscode)
 
 ---
 
@@ -136,4 +137,7 @@ $ open .
 - [Calling nvm use automatically in a directory with a .nvmrc file](https://github.com/creationix/nvm#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file)
 
 ---
+
+### VSCode
+- TS 프로젝트에서 하단 `문제` 패널에서 `tslint`가 두번씩 뜨는데, `TSLint` 플러그인과 `TSLint Vue` 플러그인을 같이 사용해서 발생했던 문제. `Vue`를 사용하지 않는 프로젝트였으므로 플러그인 패널에서 작업 영업에서 사용하지 않도록 설정하여 해결
 
