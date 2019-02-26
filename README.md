@@ -87,7 +87,8 @@ GRANT
 - 터미널에서 `docker run`등의 명령어를 실행 했을 때 `Error response from daemon: Bad response from Docker engine` 해결 방법
   - `Preferences > Reset > Reset to factory defaults`
   - Docker Desktop을 오랜만에(1달 이상?) 실행 시켰고, 업데이트가 있길래 설치했더니 발생
-
+- [I WANT TO CONNECT FROM A CONTAINER TO A SERVICE ON THE HOST](https://docs.docker.com/docker-for-mac/networking/#use-cases-and-workarounds)
+  - use `host.docker.internal` instead of `localhost`
 ---
 
 
